@@ -1,0 +1,138 @@
+
+/* Page headline  */
+.page-headline{
+    color: #004667;
+    font-size: 30px;
+    font-weight: 600;
+}
+.heading-line{
+    width: 100%;
+    height: 3px;
+    background-color: #004667;
+}
+.sub-heading{
+    color: #004667;
+    font-size: 25px;
+    font-weight: 600;
+}
+/* Page headline  */
+
+/* about page  */
+.about-text{
+    font-style: italic;
+}
+.ff-num{
+    font-size: 70px;
+    color: #c30d23;
+    font-weight: 700;
+}
+.ff-num-text{
+    margin-top: -12px;
+}
+
+
+/* admission page  */
+.add-bg{
+    
+    background-image: url("../images/admission-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* login page  */
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.login-form-2{
+    padding: 5%;
+    background: #0062cc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color:  #004667;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-area{
+    padding: 80px 0;
+    
+}
+.lg-line{
+    background-color: #004667;
+    width: 3px;
+    height: 60%;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+/* research  */
+.re-btn-main{
+    padding: 10px 15px;
+    background-color: #004667;
+    color: white;
+}
+.re-btn-main:hover{
+    background-color: rgb(209, 127, 4);
+    color: white;
+}
+.re-btn{
+    padding: 15px;
+    border: 1px solid rgb(194, 194, 194);
+}
+.info-heading{
+    padding: 15px;
+    border: 1px solid rgb(194, 194, 194);
+}
+.info-data{
+    color: #004667;
+    padding: 15px;
+    border: 1px solid rgb(194, 194, 194);
+}
+.info-data a{
+    color: #004667;
+    font-size: 16px;
+}
+.info-data a:hover{
+    color: #c30d23;
+}

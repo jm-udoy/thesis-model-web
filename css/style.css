@@ -1,0 +1,574 @@
+/*fonts*/
+@font-face{
+	font-family: Lato-Bold ;
+	src: url(..fonts/Lato-Bold.ttf);
+}
+
+@font-face{
+	font-family: Lato-Regular ;
+	src: url(..fonts/Lato-Regular.ttf);
+}
+
+
+
+/*common css*/
+body{
+	font-family: Lato-Regular !important;
+	font-size: 20px;
+	color: #2d2d2d;
+}
+
+.search-btn:hover{
+background-color: #004667;
+color: #ffffff !important;
+
+
+
+}
+
+.lato-r{
+	font-family: lato-regular;
+}
+
+.text-blue{
+	color:#004667 !important;
+}
+
+.text-red{
+	color: #c30d23 !important;
+}
+
+.menu-hover li a:hover{
+
+	color: #c30d23 !important;
+	text-decoration: underline;
+	transition: 0.8s;
+}
+
+.menu-hover li a:active{
+
+	color: #c30d23 !important;
+	text-decoration: underline;
+	transition: 0.8s;
+}
+
+ /* nav bar start  */
+ .nav-first-btn{
+	padding: 5px 10px;
+	border: 1px solid #ffffff; 
+	border-radius: 5px;
+	font-size: 18px;
+	display: inline;
+ }
+ .nav-first a:hover{
+	background-color: white !important;
+	border: 1px solid #004667; 
+	color: #004667 !important;
+	
+ }
+ .nav-first a:hover{
+	/* border: 1px solid #004667;  */
+	color: #004667;
+ }
+
+ .multi-language-text{
+	font-size: 16px;
+	font-weight: 700;
+ }
+ .ml-dd{
+	font-size: 16px;
+	color: #004667;
+ }
+ .lan-option{
+	color: #004667;
+ }
+ /* nav bar end */
+
+.dropdown-menuc li {
+	position: relative;
+	}
+	.dropdown-menuc .dropdown-submenu {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: -7px;
+	}
+	.dropdown-menuc .dropdown-submenu-left {
+	right: 100%;
+	left: auto;
+	}
+	.dropdown-menuc > li:hover > .dropdown-submenu {
+	display: block;
+	}
+
+	.c-menu-link {
+		text-decoration: none!important;
+		color: white;
+	}
+/* deparment dropdown start */
+.dropbtn {
+	background-color: #ffffff;
+	color: #004667;
+	padding: 0;
+	font-size: 16px;
+	border: none;
+	margin-top: -5px;
+  }
+  
+  .dropdown2 {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: #004667;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #e9ecef;}
+  
+  .dropdown2:hover .dropdown-content {display: block;}
+  
+  .dropdown2:hover .dropbtn {color: #c30d23; text-decoration: underline;}
+/* deparment dropdown end */
+
+/* notice start  */
+.notice-date-blue{
+	color: white;
+	background-color: #004667;
+	font-size: 14px;
+	display: inline;
+	padding: 2px;
+}
+.notice-date-red{
+	color: white;
+	background-color: #c30d23;
+	font-size: 14px;
+	display: inline;
+	padding: 2px;
+}
+
+.card-h:hover{
+	box-shadow: 0 0 2px rgb(35 173 255);
+}
+
+.notice-cus{
+	text-decoration: none;
+	margin-left: 5px;
+	color: black;
+}
+
+
+/* notice end */
+
+
+/* event start  */
+.events-notices{
+	margin-top: 30px;
+}
+.event-c{
+	margin-bottom: 20px;
+}
+
+.learn-more-btn{
+	text-decoration-line: none;
+	font-size: 15px;
+	text-align: right;
+}
+
+.cus-date{
+	font-size: 15px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+	background-color: #004667;
+	
+	
+
+}
+
+.cus-date i{
+	margin-right: 5px;
+}
+
+.cus-btn{
+	padding: 0 5px;
+}
+
+
+/* event end  */
+
+/* body four menu start  */
+.body-menu{
+	padding: 40px 50px;
+	margin-top: 30px;
+	
+	color: white;
+	text-align: center;
+	
+}
+.bm-text{
+	font-size: 16px;
+}
+.bm-icon{
+	font-size: 50px;
+}
+.body-menu-blue{
+	background-color: #004667;
+}
+.body-menu-red{
+	background-color: #c30d23;
+}
+.bm-padding{
+	padding: 0;
+}
+.body-menu:hover{
+	background-color: rgb(209, 127, 4);
+	transition: 0.8s;
+}
+/* body four menu end */
+
+/* social media and admission start  */
+.social-admission{
+	margin-top: 30px;
+}
+.sm-icon-c{
+	padding: 15px;
+	font-size: 40px;
+	color: #004667;
+}
+.sm-icon-c:hover{
+	color: #c30d23;
+}
+
+.admission-heading{
+	background-color: #004667;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 20px 0;
+	margin-top: 40px;
+}
+
+.admission-btn{
+	padding: 10px;
+	margin: 20px 0;
+	width: 100%;
+	color: white;
+	background-color: #c30d23;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.admission-btn:hover{
+	color: white;
+	background-color: rgb(209, 127, 4);
+}
+/* social media and admission end */
+
+/* academics-section start  */
+.academic-bg{
+	margin: 40px 0;
+	background-image: url("../images/academic-bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.academics-section{
+	padding: 100px 60px;
+	color: white;
+
+	
+}
+
+.academic-btn{
+	padding: 15px;
+	margin: 15px 0;
+	color: white;
+	text-transform: uppercase;
+	background-color: #c30d23;
+	width: 80%;
+}
+.academic-btn:hover{
+	background-color: rgb(209, 127, 4);
+	color: white;
+	transition: 0.7s;
+}
+
+.academics-left p{
+	padding-right: 50px;
+	margin-bottom: 30px;
+	font-style: italic;
+}
+.academics-left h1{
+	font-size: 50px;
+}
+
+.academics-right{
+	padding: 50px;
+	text-align: center;
+	background-color: #004667b4;
+}
+
+.ar-btn{
+	
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	
+}
+.ar-btn-border{
+	padding: 30px 0;
+	display: inline;
+	border: 1px solid rgba(255, 255, 255, 0.616);
+}
+
+.ar-btn-border:hover{
+	background-color: rgb(209, 127, 4);
+	border: 1px solid rgba(0, 0, 0, 0.616);
+	transition: 0.7s;
+}
+.ar-btn:hover{
+	color: black;
+	transition: 0.7s;
+}
+.academics-left{
+	padding-top: 35px;
+}
+/* academics-section end */
+
+
+/* research and others link section start  */
+.re-card a{
+	padding: 7px;
+	color: #004667;
+	text-decoration: none !important;
+	border: 1px solid #004667;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.re-card a:hover{
+	color: white;
+	border: 1px solid #004667;
+	background-color: #004667;
+}
+.re-card{
+	color: #004667;
+	
+}
+
+.re-card p{
+	color: black;
+	font-size: 16px;
+}
+.re-card span{
+	font-size: 18px;
+}
+.re-view-all-text{
+	font-size: 14px !important;
+	color: #004667 !important;
+}
+.re-view-all-text:hover{
+	color: white !important;
+}
+.re-view-all:hover{
+	color: white !important;
+}
+.re-view-all-icon{
+	font-size: 20px;
+}
+.re-view-all{
+	border: none !important;
+}
+
+
+.dis-card{
+	padding: 15px !important;
+	border-radius: 3px;
+}
+.dis-card-blue{
+	background-color: #004667;
+}
+.dis-card-red{
+	background-color: #c30d23;
+}
+.dis-card:hover{
+	color: white;
+	background-color: rgb(209, 127, 4);
+}
+.dis-text{
+	margin-left: 5px;
+}
+/* research and others link section end */
+
+
+
+/* footer start  */
+footer{
+	margin-top: 60px;
+	background-image: url("../images/footer-map.jpg");
+	background-position: center;
+}
+
+.f-logo-address{
+	padding: 50px 0;
+}
+.f-logo-address img{
+	width: 50%;
+}
+.f-logo-address p{
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-size: 16px;
+}
+.footer-text{
+	font-style: italic;
+	font-size: 16px !important;
+}
+
+.f-copy{
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	background-color: #004667;
+	padding: 10px;
+	border-top: 1px solid rgba(155, 155, 155, 0.473);
+}
+
+.f-right{
+	padding: 50px 0;
+	margin-top: 25px;
+	color: white;
+}
+.f-right p{
+	margin: 8px 0;
+}
+.f-icons{
+	margin-top: 20px !important;
+	font-size: 30px;
+}
+.f-icons a{
+	margin-left: 15px;
+}
+.f-icons a:hover{
+	color: #c30d23;
+}
+.f-right a:hover{
+	color: #c30d23;
+}
+/* footer end */
+
+.clnder{
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+
+/* Page headline  */
+
+.page-headline{
+
+    color: #004667;
+
+    font-size: 30px;
+
+    font-weight: 600;
+
+}
+
+.heading-line{
+
+    width: 100%;
+
+    height: 3px;
+
+    background-color: #004667;
+
+}
+
+.sub-heading{
+
+    color: #004667;
+
+    font-size: 25px;
+
+    font-weight: 600;
+
+}
+
+.head-cus{
+	text-align: center;
+}
+.table-cus{
+	align-items: center;
+}
+
+/* Page headline  */
+
+.cus-ul{
+	margin-top: 20px;
+}
+
+.con-cus{
+	margin-right: 10px;
+	
+}
+.contact{
+	border: 1px solid rgb(214, 211, 211);
+	padding: 15px;
+	margin-top: 15px;
+}
+
+.notice{
+	padding: 15px;
+	background-color: #efeeee;
+	box-shadow: #ffffff;
+}
+
+.date-not{
+	background-color: #c30d23;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+
+}
+.notice-head{
+
+	color: #004667;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 600;
+	font-size: 35px;
+
+
+}
+
+
+/* drop down work  */
+.dropdown:hover .dropdown-menu{
+	display: block;
+	margin-top: 0;
+}
+.dropdown .dropdown-menu{
+	display: none;
+}
+.ac-hr{
+	margin: 10px 0;
+}
+/* drop down work  */
